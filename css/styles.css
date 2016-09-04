@@ -83,17 +83,20 @@ main h2 {
   text-align: center;
   background-color: lightgray;
   border-radius: 5px 5px 0 0;
-    
-  
 }
+
 h3 {
-  color: darkcyan;
+  color: black;
   text-shadow: 2px 2px #DDDDDD;
   margin: 20px;
 }
 p {
   color: #EEEEEE;
   text-align: right;
+}
+main p {
+  color: black;
+  text-align: left;
 }
 
 .icon {
@@ -117,12 +120,59 @@ footer {
   box-shadow: 0px -3px 4px #CCC;
 }
 footer p {
-
   color: black; 
   text-align: center;
   margin: 0px;
   padding: 20px;
-  
+}
+
+
+/* RESUME STYLES */
+.resume_section {
+  color: black;
+  display: block;
+  margin: 20px;/*10px 10px 10px 10px;*/
+}
+
+.resume_split {
+  display: block;
+  margin: 5px;
+}
+
+.resume_left {
+  display: inline;
+  text-align: left;
+  /*float: left;*/
+}
+
+.resume_right {
+  display: inline;
+  text-align: right;
+  float: right;
+}
+
+.resume h2 {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.resume h3 {
+  margin: 0 0 5px 0px;
+}
+
+.resume h4 {
+  margin: 0 0 5px 15px;
+}
+
+.resume p, ul {
+  margin: 0 30px 0px 30px;
+  line-height: 150%;
+}
+
+.column_split3 {
+  -webkit-columns: 100px 3;
+  -moz-columns: 100px 3;
+  columns: 100px 3;
 }
 
 

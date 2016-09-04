@@ -6,10 +6,10 @@
     <link rel="icon" href="img/BGicon.png">
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-
   <!-- end of header -->
 
   <body>
+    <script src="js/test_content.js"></script>
     <header>
       <h1>ben gaehle</h1>
       <nav>
@@ -25,14 +25,25 @@
     
     <main>
       <h2> Welcome to my (work-in-progress) website </h2>
+      <!--script src="js/test_content.js"></script-->
       <h3> A playground for learning. And some cat pictures:</h3>
       <img class="pic" src="img/two_cats.jpg">
+      <div class="message">Some button info:
+        <span className="False"></span>
+        <button id="clickButn" onclick="updateButton()">Click me!</button>
+        <button id="dateButton" onclick="getElementById('dateButton').innerHTML=Date()">What is the time?</button>
+      </div>
       <p> (Hosted with Amazon S3) </p>
     </main>
+    
+    <button id="startDemo" onClick="startGlDemo()">Begin Demo!</button>
 
     <footer>
-      <p> The information on this page is my own. </p>
+      <p id="fewt"> The information on this page is my own. </p>
     </footer>
+    
+
+    
   </body>
 
 </html>
