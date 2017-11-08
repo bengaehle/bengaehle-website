@@ -26,33 +26,130 @@ header {
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 2.25em;
   margin: 0 auto 0 auto;
   padding: 20px;
 }
 
-#main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  
-  padding: 10px;
-  background-color: #222;
-  border-radius: 5px 5px 5px 5px;
+/* STYLES FOR RESUME SECTION */
+.resume {
+  font-family: sans-serif;
+  text-align: left;
 }
 
+.resumesection {
+  background-color: #222;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-top: 0px;
+  color: #AAA;
+}
+
+p {
+  margin-top: 0px;
+  padding-left: 5px;
+  color: #AAA;
+}
+
+
+/* STYLING FOR LEFT-RIGHT TEXT BLOCKING */
+.leftrightblock {
+  width: 100%;
+  display: inline-block;
+  padding: 0px;
+  padding-top: 0px;
+  margin: 0px;
+  /*background-color: blue;*/
+}
+
+.left {
+  float: left;
+  /*background-color: green;*/
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+.right {
+  float: right;
+  /*background-color: red;*/
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* RESUME SECTION HEADERS */
+.resumesection h2 {
+  padding: 5px;
+  margin: 0px;
+  color: #DDD;
+}
+
+.resumesection h3 {
+  padding-left: 5px;
+  margin: 0px;
+  color: #CCC;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.skillset {
+  columns: 4;
+  -webkit-columms: 4;
+  -moz-columns: 4;
+  list-style: none;
+}
+
+/* BORDERS USED FOR UNDERLINING */
+.brdr {
+  width: 100%;
+  height: 0px;
+  border-top: 2px solid;
+  margin-bottom: 10px;
+}
+
+.red {
+  border-color: #965555;
+}
+
+.yellow {
+  border-color: #899655;
+}
+
+.green {
+  border-color: #55966F;
+}
+
+.blue {
+  border-color: #556F96;
+}
+
+.violet {
+  border-color: #895596;
+}
+
+/*FOOTER AT BOTTOM OF PAGE */
 footer {
   font-family: sans-serif;
   background-color: #222;
   
-  position:fixed;
+  /*position:fixed;
   bottom: 0;
   width: 960px;
-  
+  */
   padding: 10px;
-  border: 0px;
+  margin-top: 10px;
+  border-width: 2px;
   
+  border-color: #000;
   border-radius: 5px 5px 0px 0px;
 }
 
